@@ -30,25 +30,25 @@ import Img from "./assets/image/bg.jpg"
                         text-gray-900 text-sm tracking-wider border border-slate-400 ">My Calculator</p>
           
           <div className="grid grid-cols-4 gap-4">
-              <button onClick={clearAll} type="button" className="operator">AC</button>
-              <button onClick={deletOne} type="button" className="operator">Del</button>
-              <button onClick={handleClick} type="button" className="operator" id=".">.</button>
-              <button onClick={handleClick} type="button" className="operator" id="/">/</button>
-              <button onClick={handleClick} type="button" className="number" id="7">7</button>
-              <button onClick={handleClick} type="button" className="number" id="8">8</button>
-              <button onClick={handleClick} type="button" className="number" id="9">9</button>
-              <button onClick={handleClick} type="button" className="operator" id="*">*</button>
-              <button onClick={handleClick} type="button" className="number" id="4">4</button>
-              <button onClick={handleClick} type="button" className="number" id="5">5</button>
-              <button onClick={handleClick} type="button" className="number" id="6">6</button>
-              <button onClick={handleClick} type="button" className="operator" id="-">-</button>
-              <button onClick={handleClick} type="button" className="number" id="1">1</button>
-              <button onClick={handleClick} type="button" className="number" id="2">2</button>
-              <button onClick={handleClick} type="button" className="number" id="3">3</button>
-              <button onClick={handleClick} type="button" className="operator" id="+">+</button>
-              <button onClick={handleClick} type="button" className="number" id="00">00</button>
-              <button onClick={handleClick} type="button" className="number" id="0">0</button>
-              <button onClick={calculate} type="button" className="operator col-span-2" id="=">=</button>
+              <button onClick={clearAll} type="button" className="operator active:bg-slate-100">AC</button>
+              <button onClick={deletOne} type="button" className="operator active:bg-slate-100">Del</button>
+              <button onClick={handleClick} type="button" className="operator active:bg-slate-100" id=".">.</button>
+              <button onClick={handleClick} type="button" className="operator active:bg-slate-100" id="/">/</button>
+              <button onClick={handleClick} type="button" className="number active:bg-green-100" id="7">7</button>
+              <button onClick={handleClick} type="button" className="number active:bg-green-100" id="8">8</button>
+              <button onClick={handleClick} type="button" className="number active:bg-green-100" id="9">9</button>
+              <button onClick={handleClick} type="button" className="operator active:bg-slate-100" id="*">*</button>
+              <button onClick={handleClick} type="button" className="number active:bg-green-100" id="4">4</button>
+              <button onClick={handleClick} type="button" className="number active:bg-green-100" id="5">5</button>
+              <button onClick={handleClick} type="button" className="number active:bg-green-100" id="6">6</button>
+              <button onClick={handleClick} type="button" className="operator active:bg-slate-100" id="-">-</button>
+              <button onClick={handleClick} type="button" className="number active:bg-green-100" id="1">1</button>
+              <button onClick={handleClick} type="button" className="number active:bg-green-100" id="2">2</button>
+              <button onClick={handleClick} type="button" className="number active:bg-green-100" id="3">3</button>
+              <button onClick={handleClick} type="button" className="operator active:bg-slate-100" id="+">+</button>
+              <button onClick={handleClick} type="button" className="number active:bg-green-100" id="00">00</button>
+              <button onClick={handleClick} type="button" className="number active:bg-green-100" id="0">0</button>
+              <button onClick={calculate} type="button" className="operator col-span-2 active:bg-slate-100" id="=">=</button>
           </div>
        </div>
      </div>
